@@ -19,7 +19,7 @@ public class ListNode {
         System.out.println("val = " + val);
     }
 
-    public static ListNode getList(int[] arr){
+    public static ListNode newList(int[] arr){
         if (arr.length == 0) throw new RuntimeException("Empty Array!");
         ListNode nextNode = new ListNode(arr[arr.length - 1]);
         ListNode head = nextNode;

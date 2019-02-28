@@ -46,7 +46,7 @@ public class LinkList_Delete {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 3, 4, 4, 5};
-        ListNode list = ListNode.getList(arr);
+        ListNode list = ListNode.newList(arr);
         ListNode.printList(list);
         ListNode result = new LinkList_Delete().deleteDuplication(list);
         ListNode.printList(result);
